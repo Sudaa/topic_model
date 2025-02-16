@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "topic-modeling"
+version = "0.0.1"
+description = "model to topic analysis"
+authors = ["Sudarshan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+scikit-learn = "^1.6.1"
+pandas = "^2.2.3"
+numpy = "^2.2.3"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+gradio = "^5.16.0"
+datasets = "^3.3.0"
+huggingface-hub = "^0.28.1"
+pydantic = "^2.10.6"
+joblib = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
